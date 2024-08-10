@@ -1,0 +1,12 @@
+.app {
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  
+  .app.scrolled .section1 {
+    transform: translateY(-100px);
+  }
+  
+  .app.scrolled .section2 {
+    transform: translateY(100px);
+  }
